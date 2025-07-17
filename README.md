@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Commands used
+
+ng new angular-primeng-app --routing : for creating new angular app
+npm install primeng primeflex primeicons : to install primeng , primeflex and primeicons in one go
+
+Creation of components , services , guards and interfaces
+Angular Routing
+Router outlet
+
+ng g c components/login
+ng g c components/register
+ng g c components/home
+ng g s services/auth
+ng g g guards/auth
+ng g i interfaces/auth
