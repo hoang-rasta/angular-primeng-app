@@ -41,3 +41,7 @@ ng g c components/home
 ng g s services/auth
 ng g g guards/auth
 ng g i interfaces/auth
+
+npm i json-server
+
+json-server --watch db.json
